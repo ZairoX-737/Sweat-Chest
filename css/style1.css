@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.hero-1{
+    background-image: url(../content/bg.png);
+    background-size: cover;
+    height: 1300px;
+}
+
+.header-name{
+    padding-top: 5px;
+}
+
+.header-title{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.info-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-1_wrapper{
+    width: 51%;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 335px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-1_but1{
+    margin-bottom: 25px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 13px;
+    color: #2E363E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+.wrapper-1_info{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.wrapper-1_info2{
+    line-height: 143%;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+.wrapper-1_info3 {
+    display: flex;
+}
+
+.button-link{
+    text-decoration: none;
+    color: #2E363E;
+}
+
+.wrapper-1_info3 .wrapper-1_but1{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    width: 280px;
+    height: 90px;
+    background-color: #FED84C;
+}
+.wrapper-1_but1:hover{
+    transform: scale(1.05);
+}
+
+.hero-2_title {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    color: #2E363E;
+}
+.catalog-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 63%;
+    max-width: 1500px;
+    flex-wrap: wrap;
+}
+.catalog-item{
+    width: 380px;
+    height: 580px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 3px 0px rgba(34, 60, 80, 0.2);
+}
+.catalog-item:hover{
+    transform: scale(1.01);
+}
+
+.catalog-item_info{
+    margin: 0 auto;
+    color: #2E363E;
+    padding-top: 50px;
+    padding-left: 34px;
+}
+
+.catalog-item_title{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.catalog-item_desc{
+    margin: 0 auto;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+.catalog-item_price{
+    color: #434B53;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.catalog-item_info .wrapper-1_but1{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    width: 160px;
+    height: 70px;
+    background-color: #FED84C;
+}
+
+.hero-3{
+    background-color: #081130;
+    height: 900px;
+}
+
+.footer-form{
+    text-align: center;
+    padding: 70px 100px 70px 100px;
+    color: #2E363E;
+    margin: 0 auto;
+    margin-top: -30px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: 1180px;
+    height: 400px;
+}
+
+.form-title{
+    margin: 0 auto;
+    font-size: 36px;
+}
+.form-subtitle {
+    margin: 0 auto;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.form-phone{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    max-width: 780px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-phone{
+    background-image: url(../content/phone2.png);
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2F6FA;
+    padding-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 380px;
+    height: 85px;
+}
+
+.input-phone::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-submit{
+    width: 380px;
+    height: 85px;
+    background-color: #FED84C;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.2s ease-in-out;
+}
+
+.input-submit:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.form-checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-checkbox input{
+    width: 18px;
+    height: 18px;
+}
+
+.form-checkbox p{
+    margin: 0;
+    padding-left: 5px;
+    color: #7E868E;
+}
+
+.footer-info{
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #7E868E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 605px;
+    height: 60px;
+    font-size: 12px;
+}
+
+.footer-info div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-info a{
+    color: #7E868E;
+    text-decoration: none;
+}
+
+@media all and (min-width: 2559px){
+    .hero-1{
+        height: 1680px;
+    }
+}
